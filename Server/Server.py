@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST = None               # Symbolic name meaning all available interfaces
+HOST = '127.0.0.1'               # Symbolic name meaning all available interfaces
 PORT = 50007              # Arbitrary non-privileged port
 s = None
 for res in socket.getaddrinfo(HOST, PORT, socket.AF_UNSPEC,
